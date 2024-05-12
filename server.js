@@ -5,7 +5,7 @@ app.use(cors())
   
 
 app.get('/',(req,res) => {
-    res.send('l\' api est en ligne !')
+    res.send('Artemis Api')
 })
 
 app.listen(5000, () => {
