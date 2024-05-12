@@ -5,7 +5,7 @@ app.use(cors())
   
 
 app.get('/',(req,res) => {
-    res.send('hello idiot')
+    res.send('l\' api est en ligne !')
 })
 
 app.listen(5000, () => {
